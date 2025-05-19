@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "components/StyledText.jsx", "components/ExternalLink.jsx", "components/EditScreenInfo.jsx", "app/modal.jsx", "app/+not-found.jsx", "app/+html.jsx", "app/_layout.jsx", "app/(tabs)/two.jsx", "app/(tabs)/index.jsx", "components/Themed.jsx", "components/useClientOnlyValue.js", "components/useClientOnlyValue.web.js", "constants/Colors.js", "components/useColorScheme.web.js", "components/useColorScheme.js", "app/(tabs)/_layout.jsx"  ]
+}

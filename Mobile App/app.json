@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Kenya Power",
+    "slug": "Kenya_Power",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/LOGO3.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffc107"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/LOGO3.png",
+        "backgroundColor": "#ffc107"
+      },
+      "package": "com.nyandiga.Kenya_Power"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "2b1b2409-50c6-45c4-a474-774f8902ef4b"
+      }
+    },
+    "owner": "nyandiga"
+  }
+}
